@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="4.0">
+ <axes>
+  <axis name="weight" minimum="400" default="400" tag="wght" maximum="700">
+   <labelname xml:lang="en">Weight</labelname>
+  </axis>
+ </axes>
+ <sources>
+  <source name="wt400" stylename="wt400" filename="masters/CoinbagPro-wt400.ufo" familyname="Coinbag Pro">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+  <source name="Bold" stylename="Bold" filename="masters/CoinbagPro-Bold.ufo" familyname="Coinbag Pro">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </source>
+  <source name="Regular" stylename="Regular" filename="masters/CoinbagPro-Regular.ufo" familyname="Coinbag Pro">
+   <lib copy="1"/>
+   <groups copy="1"/>
+   <info copy="1"/>
+   <features copy="1"/>
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </source>
+ </sources>
+ <instances>
+  <instance name="Regular" stylename="Regular" filename="instances/CoinbagPro-Regular.ufo" familyname="Coinbag Pro">
+   <location>
+    <dimension name="weight" xvalue="400"/>
+   </location>
+  </instance>
+  <instance name="Bold" stylename="Bold" filename="instances/CoinbagPro-Bold.ufo" familyname="Coinbag Pro">
+   <location>
+    <dimension name="weight" xvalue="700"/>
+   </location>
+  </instance>
+ </instances>
+</designspace>
